@@ -4,11 +4,11 @@
 // --------------------------------------------------------------------------
 // CHANGE THESE TO MATCH YOUR NETWORK SETTINGS
 // --------------------------------------------------------------------------
-const char* ssid = "YOUR_WIFI_SSID";          // Replace with your WiFi Name
-const char* password = "YOUR_WIFI_PASSWORD";  // Replace with your WiFi Password
+const char* ssid = "Wiliam_5G";
+const char* password = "abcd@12345";  // User provided
 
-// IMPORTANT: Do NOT use "localhost". Use your computer's local IP address (e.g., 192.168.1.5)
-String serverName = "http://192.168.1.100:3000/message"; 
+// IMPORTANT: Do NOT use "localhost". Use your computer's local IP address
+String serverName = "http://192.168.2.3:3000/message"; 
 // --------------------------------------------------------------------------
 
 unsigned long lastTime = 0;
