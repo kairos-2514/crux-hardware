@@ -8,14 +8,14 @@ const char* ssid = "Wiliam_5G";
 const char* password = "abcd@12345";  // User provided
 
 // IMPORTANT: Do NOT use "localhost". Use your computer's local IP address
-String serverName = "http://192.168.2.3:3000/message"; 
+String serverName = "http://192.168.0.107:3000/message"; 
 // --------------------------------------------------------------------------
 
 unsigned long lastTime = 0;
 // Timer set to 10 minutes (600000)
 // unsigned long timerDelay = 600000;
-// Set timer to 10 seconds (10000)
-unsigned long timerDelay = 10000;
+// Set timer to 5 seconds (5000)
+unsigned long timerDelay = 5000;
 
 void setup() {
   Serial.begin(115200);
